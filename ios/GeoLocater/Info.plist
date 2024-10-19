@@ -49,4 +49,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>We need your location to show you nearby places.</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>We need your location to show you nearby places.</string>
 </plist>
