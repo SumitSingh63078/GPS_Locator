@@ -64,16 +64,27 @@ You've successfully run and modified your React Native App. :partying_face:
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
 - If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+React Native GPS Recorder 
+GPS Recorder is a React Native application that allows users to record and manage their GPS coordinates. Users can add their current GPS location, view a list of recorded coordinates, and delete any coordinates they no longer need. The app utilizes persistent storage to ensure that coordinates remain available even after the app is closed and reopened.
 
-# Learn More
+![alt text](Screenshot_1729316554.png)
+![alt text](Screenshot_1729316562.png)
+![alt text](Screenshot_1729316572.png)
 
-To learn more about React Native, take a look at the following resources:
+Setup and Installation
+To run the GPS Recorder app locally, follow these instructions:
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Prerequisites
+Node.js (version 14 or later)
+React Native CLI
+Android Studio or Xcode (for iOS)
+
+Run the following command to install the app and link dependencies
+npm install
+npx react-native run-android
+npx react-native run-ios
+
+Packages Used
+react-native-geolocation-service
+@react-native-async-storage/async-storage
